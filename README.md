@@ -5,4 +5,7 @@ This repo contains the code for a cloudflare worker which exposes a REST API and
 ```shell
 # Start the development server
 npx wrangler dev
+
+# Deploy to cloudflare
+npx wrangler deploy
 ```
