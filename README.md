@@ -1,17 +1,8 @@
-# Template: worker-typescript
+# mimic.bluefeet.dev
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/templates/tree/main/worker-typescript)
+This repo contains the code for a cloudflare worker which exposes a REST API and tries to mimic my personality and attributes using ChatGPT.
 
-A batteries included template for kick starting a TypeScript Cloudflare worker project.
-
-## Setup
-
-To create a `my-project` directory using this template, run:
-
-```sh
-$ npx wrangler generate my-project worker-typescript
-# or
-$ yarn wrangler generate my-project worker-typescript
-# or
-$ pnpm wrangler generate my-project worker-typescript
+```shell
+# Start the development server
+npx wrangler dev
 ```
